@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<section class="section">
+		<h1>CURRICULUM VITAE</h1>
+		<a class="hollow button" href="#/lettre"><i class="fa fa-envelope-open" aria-hidden="true"></i> lettre de motivation</a>
+		<a class="hollow button" href="#/"><i class="fa fa-address-card" aria-hidden="true"></i> information</a>
+		<a class="hollow button" href="#/cv"><i class="fa fa-newspaper-o" aria-hidden="true"></i> curriculum vitae</a>
+</section>
+
+<div class="page {{ '{{ animation }}' }}" ui-view></div>
+{% endblock %}
