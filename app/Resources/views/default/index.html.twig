@@ -6,7 +6,19 @@
 		<a class="hollow button" href="#/lettre"><i class="fa fa-envelope-open" aria-hidden="true"></i> lettre de motivation</a>
 		<a class="hollow button" href="#/"><i class="fa fa-address-card" aria-hidden="true"></i> information</a>
 		<a class="hollow button" href="#/cv"><i class="fa fa-newspaper-o" aria-hidden="true"></i> curriculum vitae</a>
-</section>
+	</section>
 
-<div class="page {{ '{{ animation }}' }}" ui-view></div>
+
+	<div ng-show="load" class="core" >
+		<div class="cs">
+			<div class="row">
+				<div class="small-2 medium-6 columns"> 
+				<div class="loading-pulse">
+				</div>
+				<p>loading...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page {{ '{{ animation }}' }}" ui-view></div>
 {% endblock %}

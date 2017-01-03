@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 section {
   overflow: hidden; }
   section h1 {
+    padding-top: 10px;
     color: white;
     text-align: center;
     font-family: 'Righteous', cursive;
@@ -184,5 +186,22 @@ section {
   -webkit-animation: slideInLeft 0.5s both ease-in;
   -moz-animation: slideInLeft 0.5s both ease-in;
   animation: slideInLeft 0.5s both ease-in; }
+
+/* ************************************************
+Error Page
+************************************************* */
+.error {
+  text-align: center; }
+
+.error h1 {
+  color: black;
+  font-family: 'Press Start 2P';
+  margin: 0 67% 0 33%;
+  font-size: 100px; }
+
+.error p {
+  font-family: 'Press Start 2P';
+  color: black;
+  font-size: 80px; }
 
 /*# sourceMappingURL=style.css.map */
