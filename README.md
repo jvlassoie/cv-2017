@@ -11,7 +11,7 @@ Voici mon cv de l'année 2017.
 
 ## Image ##
 
-![Capture cv](/readmeImage/cvCapture1.png "capture cv")
+![Capture cv](/readmeImage/cvCapture.png "capture cv")
 ![Capture cv](/readmeImage/cvCapture2.png "capture cv")
 ![Capture cv](/readmeImage/cvCapture3.png "capture cv")
 ![Capture cv](/readmeImage/cvCapture4.png "capture cv")
